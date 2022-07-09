@@ -7,8 +7,6 @@ In addition the tool will create tests to validate the new records in cloudflare
 compared with the current global DNS records, using nslookup.
 
 To make the result code organized, we separated the terraform files based on DNS records types (for example A.tf, CANME.tf).
-If you would prefer to use one terraform file swith branch to oneTF.
-oneTF - records will be writen to one file named records.tf. The records will be orderd by type.
 
 ## Installation
 
